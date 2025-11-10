@@ -1,10 +1,6 @@
 import 'dart:io';
 
 void main() {
-
-  
-   for(int i=0,)
-
   // int age = 20;
   // double price = 59.99;
   // String name = "Gurdeep";
