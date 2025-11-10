@@ -1,9 +1,9 @@
 import 'dart:io';
 
 void main() {
-  int n = int.parse(stdin.readLineSync()!);
-  print(n);
-  // for(int i=0,)
+
+  
+   for(int i=0,)
 
   // int age = 20;
   // double price = 59.99;
