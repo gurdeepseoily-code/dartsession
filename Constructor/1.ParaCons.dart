@@ -1,7 +1,7 @@
 class Car {
-  String model;
-  String name;
-  int price;
+  String? model;
+  String? name;
+  int? price;
 
   Car(this.model, this.name, this.price);
 }
