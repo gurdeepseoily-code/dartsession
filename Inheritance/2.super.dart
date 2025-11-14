@@ -1,10 +1,18 @@
 class A {
+  A() {
+    print("This is a Class A Constructors");
+  }
+
   void sound() {
     print("This is Parent class A method sound");
   }
 }
 
 class B extends A {
+  B() : super() {
+    print("This is Class B Constructor");
+  }
+
   void eat() {
     super.sound();
     print("This is Child class B method eat");
@@ -15,6 +23,7 @@ class B extends A {
 
 class C extends B {
   C() {
+    // Default Comstructor
     print("Hello, I am class C");
   }
 
